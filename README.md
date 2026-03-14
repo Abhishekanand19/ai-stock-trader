@@ -32,19 +32,11 @@ An intelligent stock trading agent powered by Google Gemini and Alpaca API. Chat
    npm install
    ```
 
-3. Create `.env` file:
-   ```env
-   ALPACA_API_KEY=your_key
-   ALPACA_API_SECRET=your_secret
-   ALPACA_BASE_URL=https://paper-api.alpaca.markets
-   GEMINI_API_KEY=your_gemini_key
-   ```
-
-4. Run the agent:
+3. Run the agent:
    ```bash
    npm start
    ```
-   
+
 ## 🛠️ Available Commands
 
 - Buy/sell stocks: "Buy 5 AAPL", "Sell all my Tesla shares"
