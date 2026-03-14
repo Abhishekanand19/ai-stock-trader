@@ -1,0 +1,33 @@
+{
+  "name": "ai-stock-trader",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI Stock Trading Agent using Gemini and Alpaca",
+  "main": "src/client.ts",
+  "scripts": {
+    "start": "tsx src/client.ts",
+    "dev": "tsx watch src/client.ts",
+    "server": "tsx src/mcp-server/stock-server.ts"
+  },
+  "keywords": [
+    "stock",
+    "trading",
+    "ai",
+    "gemini",
+    "alpaca"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^3.1.3",
+    "@google/generative-ai": "^0.24.1",
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^25.0.10",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
